@@ -8,8 +8,8 @@ raise an exception to fail the test
 
 # Files in the directory
 
-#1. Python file defining the logic of the test
-#2. Robot file to pass the test cases, its parameters and the settings.
-#3. XML file containing the output
-#4. Log file in HTML format
-#5. Reprt file in HTML format 
+# 1. Python file defining the logic of the test
+# 2. Robot file to pass the test cases, its parameters and the settings.
+# 3. XML file containing the output
+# 4. Log file in HTML format
+# 5. Reprt file in HTML format 
