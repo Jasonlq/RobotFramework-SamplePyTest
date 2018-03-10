@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.3.dev20170213 (Python 3.4.3 on win32)" generated="20180310 19:35:49.041">
+<suite source="C:\Users\jlq002\PycharmProjects\Robot_Framework_Example\example.robot" name="Example" id="s1">
+<test name="example1" id="s1-t1">
+<kw library="example" name="Smoke">
+<arguments>
+<arg>4</arg>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180310 19:35:49.113" level="INFO">Serial flush
+Vailid  number</msg>
+<status starttime="20180310 19:35:49.113" endtime="20180310 19:35:49.114" status="PASS"></status>
+</kw>
+<doc>Sample Test</doc>
+<tags>
+<tag>example</tag>
+</tags>
+<status critical="yes" starttime="20180310 19:35:49.111" endtime="20180310 19:35:49.114" status="PASS"></status>
+</test>
+<test name="example2" id="s1-t2">
+<kw library="example" name="Smoke">
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20180310 19:35:49.116" level="INFO">No serial Flush</msg>
+<msg timestamp="20180310 19:35:49.117" level="FAIL">ValueError: invalid</msg>
+<status starttime="20180310 19:35:49.116" endtime="20180310 19:35:49.117" status="FAIL"></status>
+</kw>
+<doc>Sample Test</doc>
+<tags>
+<tag>example</tag>
+</tags>
+<status critical="yes" starttime="20180310 19:35:49.115" endtime="20180310 19:35:49.118" status="FAIL">ValueError: invalid</status>
+</test>
+<test name="example3" id="s1-t3">
+<kw library="example" name="Smoke">
+<arguments>
+<arg>6</arg>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180310 19:35:49.120" level="INFO">Serial flush
+Vailid  number</msg>
+<status starttime="20180310 19:35:49.119" endtime="20180310 19:35:49.120" status="PASS"></status>
+</kw>
+<doc>Sample Test</doc>
+<tags>
+<tag>example</tag>
+</tags>
+<status critical="yes" starttime="20180310 19:35:49.119" endtime="20180310 19:35:49.120" status="PASS"></status>
+</test>
+<doc>A test suite with a single test for valid login.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status starttime="20180310 19:35:49.045" endtime="20180310 19:35:49.121" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1">Critical Tests</stat>
+<stat pass="2" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="1">example</stat>
+</tag>
+<suite>
+<stat id="s1" name="Example" pass="2" fail="1">Example</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
